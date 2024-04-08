@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(174, 227, 201);
+    
+
+}
+
+.head{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.tagline{
+    font-size: 0.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 32, 184);
+}
+
+.hero{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.hero div p{
+    margin-top: 100px;
+    font-size: 4rem;
+}
+
+.main{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.txt1{
+    background-color: aqua; 
+    
+}
